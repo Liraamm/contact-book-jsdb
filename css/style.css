@@ -1,0 +1,146 @@
+body {
+  background-image: url("https://klike.net/uploads/posts/2022-10/1664603604_d-4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input {
+  border-color: aqua;
+}
+
+.contact-book {
+  /* display: flex; */
+  width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.contact-contaier {
+  display: flex;
+  width: 400px;
+  text-align: center;
+}
+
+.add-contact {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  row-gap: 5px;
+}
+
+#add-name {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  color: rgb(53, 53, 53);
+}
+
+#add-surname {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  color: rgb(53, 53, 53);
+}
+
+#add-url {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  color: rgb(53, 53, 53);
+}
+
+#add-number {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  color: rgb(53, 53, 53);
+}
+
+#add-submit {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 10px;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#close-modal {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#edit-cancel,
+.edit-submit {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 10px;
+}
+
+.edit-btn {
+  background-color: #ddd;
+}
+
+.delete-btn {
+  background-color: #ff6b6b;
+  color: #fff;
+}

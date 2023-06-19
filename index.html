@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="contact-book">
+      <form action="" class="add-contact">
+        <input type="text" id="add-name" placeholder="Name" />
+        <input type="text" id="add-surname" placeholder="Surname" />
+        <input type="url" id="add-url" placeholder="Picture" /><input
+          type="number"
+          id="add-number"
+          placeholder="Phone number"
+        />
+        <button id="add-submit">Add</button>
+      </form>
+      <div class="contact-container"></div>
+    </div>
+    <div class="modal" id="edit-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Edit contact</h3>
+          <button id="close-modal">X</button>
+        </div>
+        <input id="edit-input-name" />
+        <input id="edit-input-surname" />
+        <input type="number" id="edit-input-number" />
+        <input id="edit-input-picture" />
+        <div class="modal-footer">
+          <button id="edit-cancel">Cancel</button
+          ><button class="edit-submit">Save</button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

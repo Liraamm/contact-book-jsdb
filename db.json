@@ -1,0 +1,18 @@
+{
+  "contacts": [
+    {
+      "name": "fghjk",
+      "surname": "dfgh",
+      "picture": "dfgh",
+      "number": "12345",
+      "id": 1
+    },
+    {
+      "name": "qwertyi",
+      "surname": "dfgh",
+      "picture": "dfgh",
+      "number": "12345",
+      "id": 2
+    }
+  ]
+}
